@@ -6,9 +6,5 @@
   "browser_action": {
     "default_icon": "snoop.png",
     "default_popup": "popup.html"
-  },
-  "permissions": [
-    "activeTab",
-    "storage"
-  ]
+  }
 }
