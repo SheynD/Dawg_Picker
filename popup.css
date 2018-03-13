@@ -1,0 +1,17 @@
+html {
+	height: 489px;
+	width: 489px;
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 80px;
+}
+
+body {
+	height: 489px;
+	width: 489px;
+}
