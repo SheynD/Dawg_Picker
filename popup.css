@@ -11,6 +11,13 @@ img {
     width: 80px;
 }
 
+#jordansleftfoot {
+	background-color:	#c4f1fe;
+	padding:		10px 20px !important;
+	font-weight: bold;
+	color: #2d525d;
+}
+
 body {
 	height: 489px;
 	width: 489px;
