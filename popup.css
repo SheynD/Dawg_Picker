@@ -3,6 +3,19 @@ html {
 	width: 489px;
 }
 
+h1 {
+	font-family: Georgia, serif
+}
+
+p {
+	font-family: Georgia, serif
+}
+
+ul {
+	font-family: Georgia, serif
+}
+
+
 img {
 	display: block;
     margin-left: auto;
@@ -21,4 +34,5 @@ img {
 body {
 	height: 489px;
 	width: 489px;
+	background: #DCDCDC;
 }
