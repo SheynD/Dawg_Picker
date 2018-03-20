@@ -4,7 +4,9 @@ html {
 }
 
 h1 {
-	font-family: Georgia, serif
+	font-family: Georgia, serif;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 p {
@@ -20,8 +22,10 @@ img {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
+   padding:1px;
+   border:1px solid #021a40;
 }
 
 #jordansleftfoot {
