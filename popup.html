@@ -3,141 +3,15 @@
 		<link rel="stylesheet" href="popup.css">
 		<title>Getting Started Popup</title>
 		<script>
-
-			function calculateScore()
-			{
-				var q1a = document.getElementById("q1a").checked
-				var q1b = document.getElementById("q1b").checked
-				var q1c = document.getElementById("q1c").checked
-				var q1d = document.getElementById("q1d").checked
-				var q1e = document.getElementById("q1e").checked
-
-				var q2a = document.getElementById("q2a").checked
-				var q2b = document.getElementById("q2b").checked
-				var q2c = document.getElementById("q2c").checked
-				var q2d = document.getElementById("q2d").checked
-				var q2e = document.getElementById("q2e").checked
-
-				var q3a = document.getElementById("q3a").checked
-				var q3b = document.getElementById("q3b").checked
-				var q3c = document.getElementById("q3c").checked
-				var q3d = document.getElementById("q3d").checked
-				var q3e = document.getElementById("q3e").checked
-
-				var q4a = document.getElementById("q4a").checked
-				var q4b = document.getElementById("q4b").checked
-				var q4c = document.getElementById("q4c").checked
-				var q4d = document.getElementById("q4d").checked
-				var q4e = document.getElementById("q4e").checked
-
-				var q5a = document.getElementById("q5a").checked
-				var q5b = document.getElementById("q5b").checked
-				var q5c = document.getElementById("q5c").checked
-				var q5d = document.getElementById("q5d").checked
-				var q5e = document.getElementById("q5e").checked
-
-				var q1 = 0
-				var q2 = 0
-				var q3 = 0
-				var q4 = 0
-				var q5 = 0
-
-				if (q1a)
-				{
-					q1 = 1
-				} else if (q1b)
-				{
-					q1 = 2
-				} else if (q1c)
-				{
-					q1 = 3
-				} else if (q1d)
-				{
-					q1 = 4
-				} else if (q1e)
-				{
-					q1 = 5
-				}
-
-				if (q2a)
-				{
-					q2 = 1
-				} else if (q2b)
-				{
-					q2 = 2
-				} else if (q2c)
-				{
-					q2 = 3
-				} else if (q2d)
-				{
-					q2 = 4
-				} else if (q2e)
-				{
-					q2 = 5
-				}
-
-				if (q3a)
-				{
-					q3 = 1
-				} else if (q3b)
-				{
-					q3 = 2
-				} else if (q3c)
-				{
-					q3 = 3
-				} else if (q3d)
-				{
-					q3 = 4
-				} else if (q3e)
-				{
-					q3 = 5
-				}
-
-				if (q4a)
-				{
-					q4 = 1
-				} else if (q4b)
-				{
-					q4 = 2
-				} else if (q4c)
-				{
-					q4 = 3
-				} else if (q4d)
-				{
-					q4 = 4
-				} else if (q4e)
-				{
-					q4 = 5
-				}
-
-				if (q5a)
-				{
-					q5 = 1
-				} else if (q5b)
-				{
-					q5 = 2
-				} else if (q5c)
-				{
-					q5 = 3
-				} else if (q5d)
-				{
-					q5 = 4
-				} else if (q5e)
-				{
-					q5 = 5
-				}
-
-				console.log(q1 + q2 + q3 + q4 + q5)
-			}
-			
+			// alert();
 		</script>
 	</head>
 	<body>
-		<h1>Hello and welcome to the dog breed selection quiz!</h1>
+		<h1>Welcome to the Dog Breed Selection Quiz!</h1>
 		<img src="doggy.png"></img>
 		<p class="question">1. How adaptable do you want a dog to be?</p>
 		<ul class="answers">
-			<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Not very adaptable; spontaneous</label><br/>
+			<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"c>Not very adaptable; spontaneous</label><br/>
 			<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Slightly adaptable</label><br/>
 			<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Moderately adaptable</label><br/>
 			<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Adaptable</label><br/>
@@ -169,21 +43,15 @@
 		</ul>
 		<p class="question">5. How exercise-needy do you want a dog to be?</p>
 		<ul class="answers">
-			<input type="radio" name="q5" value="a" id="q5a"><label for="q5a">Not very adaptable; spontaneous</label><br/>
-			<input type="radio" name="q5" value="b" id="q5b"><label for="q5b">Slightly adaptable</label><br/>
-			<input type="radio" name="q5" value="c" id="q5c"><label for="q5c">Moderately adaptable</label><br/>
-			<input type="radio" name="q5" value="d" id="q5d"><label for="q5d">Adaptable</label><br/>
-			<input type="radio" name="q5" value="e" id="q5e"><label for="q5e">Very adaptable</label><br/>
-		</ul>
-		<p class="question">6. How cool do you want a dog to be?</p>
-		<ul class="answers">
-			<input type="radio" name="q6" value="a" id="q6a"><label for="q6a">Not very adaptable; spontaneous</label><br/>
-			<input type="radio" name="q6" value="b" id="q6b"><label for="q6b">Slightly adaptable</label><br/>
-			<input type="radio" name="q6" value="c" id="q6c"><label for="q6c">Moderately adaptable</label><br/>
-			<input type="radio" name="q6" value="d" id="q6d"><label for="q6d">Adaptable</label><br/>
-			<input type="radio" name="q6" value="e" id="q6e"><label for="q6e">Very adaptable</label><br/>
+			<input type="radio" name="q5" value="a" id="q5a"><label for="q5a">Not very exercise-needy; spontaneous</label><br/>
+			<input type="radio" name="q5" value="b" id="q5b"><label for="q5b">Slightly exercise-needy</label><br/>
+			<input type="radio" name="q5" value="c" id="q5c"><label for="q5c">Moderately exercise-needy</label><br/>
+			<input type="radio" name="q5" value="d" id="q5d"><label for="q5d">Exercise-needy</label><br/>
+			<input type="radio" name="q5" value="e" id="q5e"><label for="q5e">Very exercise-needy</label><br/>
 		</ul>
 
-		<input type="button" value="Submit" id="jordansleftfoot" onclick="calculateScore()">
+		<input type="button" value="Submit" id="jordansleftfoot">
+		&nbsp;&nbsp;
+		&nbsp;&nbsp;
 	</body>
 </html>
