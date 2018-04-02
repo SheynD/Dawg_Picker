@@ -3,7 +3,133 @@
 		<link rel="stylesheet" href="popup.css">
 		<title>Getting Started Popup</title>
 		<script>
-			// alert();
+
+			function calculateScore()
+			{
+				var q1a = document.getElementById("q1a").checked
+				var q1b = document.getElementById("q1b").checked
+				var q1c = document.getElementById("q1c").checked
+				var q1d = document.getElementById("q1d").checked
+				var q1e = document.getElementById("q1e").checked
+
+				var q2a = document.getElementById("q2a").checked
+				var q2b = document.getElementById("q2b").checked
+				var q2c = document.getElementById("q2c").checked
+				var q2d = document.getElementById("q2d").checked
+				var q2e = document.getElementById("q2e").checked
+
+				var q3a = document.getElementById("q3a").checked
+				var q3b = document.getElementById("q3b").checked
+				var q3c = document.getElementById("q3c").checked
+				var q3d = document.getElementById("q3d").checked
+				var q3e = document.getElementById("q3e").checked
+
+				var q4a = document.getElementById("q4a").checked
+				var q4b = document.getElementById("q4b").checked
+				var q4c = document.getElementById("q4c").checked
+				var q4d = document.getElementById("q4d").checked
+				var q4e = document.getElementById("q4e").checked
+
+				var q5a = document.getElementById("q5a").checked
+				var q5b = document.getElementById("q5b").checked
+				var q5c = document.getElementById("q5c").checked
+				var q5d = document.getElementById("q5d").checked
+				var q5e = document.getElementById("q5e").checked
+
+				var q1 = 0
+				var q2 = 0
+				var q3 = 0
+				var q4 = 0
+				var q5 = 0
+
+				if (q1a)
+				{
+					q1 = 1
+				} else if (q1b)
+				{
+					q1 = 2
+				} else if (q1c)
+				{
+					q1 = 3
+				} else if (q1d)
+				{
+					q1 = 4
+				} else if (q1e)
+				{
+					q1 = 5
+				}
+
+				if (q2a)
+				{
+					q2 = 1
+				} else if (q2b)
+				{
+					q2 = 2
+				} else if (q2c)
+				{
+					q2 = 3
+				} else if (q2d)
+				{
+					q2 = 4
+				} else if (q2e)
+				{
+					q2 = 5
+				}
+
+				if (q3a)
+				{
+					q3 = 1
+				} else if (q3b)
+				{
+					q3 = 2
+				} else if (q3c)
+				{
+					q3 = 3
+				} else if (q3d)
+				{
+					q3 = 4
+				} else if (q3e)
+				{
+					q3 = 5
+				}
+
+				if (q4a)
+				{
+					q4 = 1
+				} else if (q4b)
+				{
+					q4 = 2
+				} else if (q4c)
+				{
+					q4 = 3
+				} else if (q4d)
+				{
+					q4 = 4
+				} else if (q4e)
+				{
+					q4 = 5
+				}
+
+				if (q5a)
+				{
+					q5 = 1
+				} else if (q5b)
+				{
+					q5 = 2
+				} else if (q5c)
+				{
+					q5 = 3
+				} else if (q5d)
+				{
+					q5 = 4
+				} else if (q5e)
+				{
+					q5 = 5
+				}
+
+				console.log(q1 + q2 + q3 + q4 + q5)
+			}
+			
 		</script>
 	</head>
 	<body>
@@ -58,6 +184,6 @@
 			<input type="radio" name="q6" value="e" id="q6e"><label for="q6e">Very adaptable</label><br/>
 		</ul>
 
-		<input type="button" value="Submit" id="jordansleftfoot">
+		<input type="button" value="Submit" id="jordansleftfoot" onclick="calculateScore()">
 	</body>
 </html>
