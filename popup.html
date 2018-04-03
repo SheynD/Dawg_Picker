@@ -3,6 +3,36 @@
 		<link rel="stylesheet" href="popup.css">
 		<title>Getting Started Popup</title>
 		<script>
+
+			var breeds = ["beagle", "collie"]
+
+			var scores = [[1, 2, 3, 2, 1], [4, 5, 1, 3, 2]]
+
+			function testScore(q1, q2, q3, q4, q5)
+			{
+				var score = 0
+				var new_i = -1
+
+				for (i = 0; i < scores.length; i++)
+				{
+					var temp_score = 0
+
+					temp_score += (scores[i][0] - q1)^2
+					temp_score += (scores[i][1] - q2)^2
+					temp_score += (scores[i][2] - q3)^2
+					temp_score += (scores[i][3] - q4)^2
+					temp_score += (scores[i][4] - q5)^2
+
+					if(temp_score > score)
+					{
+						score = temp_score
+						new_i = i
+					}
+				}
+
+				console.log(breeds[new_i])
+			}
+
 			function calculateScore()
 			{
 				var q1a = document.getElementById("q1a").checked
@@ -122,6 +152,8 @@
 				}
 
 				console.log(q1 + q2 + q3 + q4 + q5)
+
+				testScore()
 			}
 		</script>
 	</head>
